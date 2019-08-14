@@ -20,7 +20,8 @@ Me:
 
 
 <p align="center">
-  <img src="https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif">
+  <img src="https://raw.githubusercontent.com/AmplifyLow/XD/master/Resources/this-is-fine.gif">
   <br>
-  <b>&copy;tejas</b>
+  <br>
+  <b>&copy; tejas</b>
 </p>
