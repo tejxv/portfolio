@@ -1,4 +1,5 @@
-## *Welcome to my not so appealing website lol*
+## Hi
+## *Welcome to my &ast;not so appealing&ast; website lol*
 
 #### haven't figured out what to put on it, yet.
 
