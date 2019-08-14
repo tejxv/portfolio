@@ -6,6 +6,7 @@
 
 
 Nobody:
+
 Me:
 
 ### *GOALS*
@@ -19,7 +20,7 @@ Me:
 
 
 <p align="center">
-  <img src="http://s.4cdn.org/image/title/105.gif">
+  <img src="https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif">
   <br>
   <b>&copy;tejas</b>
 </p>
