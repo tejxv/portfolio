@@ -13,5 +13,5 @@ Me:
 - [x] - Learned Markdown
 - [ ] - Learn HTML with CSS
 - [ ] - Publish a Static Site
-### Follow me on [Twiter!](https://twitter.com/lltejasll)
-### Add on [Snapchat](https://snapchat.com/add/lltejasll)
+### [Twitter](https://twitter.com/lltejasll) [Snapchat](https://snapchat.com/add/lltejasll)
+
