@@ -18,6 +18,7 @@ Me:
 
 ### [Twitter](https://twitter.com/lltejasll) \ [Snapchat](https://snapchat.com/add/lltejasll) \ [Instagram](https://instagram.com/lltejasll)
 
+<br>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AmplifyLow/XD/master/Resources/this-is-fine.gif">
