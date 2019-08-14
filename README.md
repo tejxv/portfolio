@@ -16,7 +16,7 @@ Me:
 - [ ] - Learn HTML with CSS
 - [ ] - Publish a Static Site (better than this one, duhh)
 
-### [Twitter](https://twitter.com/lltejasll) | [Snapchat](https://snapchat.com/add/lltejasll) | [Instagram](https://instagram.com/lltejasll)
+### [Twitter](https://twitter.com/lltejasll) \ [Snapchat](https://snapchat.com/add/lltejasll) \ [Instagram](https://instagram.com/lltejasll)
 
 
 <p align="center">
