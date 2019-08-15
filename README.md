@@ -23,7 +23,7 @@ until then, check out my [old site.](https://sites.google.com/view/socialsss/)
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AmplifyLow/XD/master/Resources/this-is-fine.gif">
+  <img src="https://raw.githubusercontent.com/AmplifyLow/01/master/Resources/this-is-fine.gif">
   <br>
   <br>
   <b>&copy; tejas</b>
