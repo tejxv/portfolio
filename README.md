@@ -26,5 +26,6 @@ until then, check out my [old site.](https://sites.google.com/view/socialsss/)
   <img src="https://raw.githubusercontent.com/AmplifyLow/01/master/Resources/this-is-fine.gif">
   <br>
   <br>
-  <b>&copy; tejas</b>
 </p>
+
+ [get this gif ⭜](https://raw.githubusercontent.com/AmplifyLow/01/master/Resources/this-is-fine.gif)
