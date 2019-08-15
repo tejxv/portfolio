@@ -16,6 +16,8 @@ Me:
 - [ ] - Learn HTML with CSS
 - [ ] - Publish a Static Site (better than this one, duhh)
 
+until then, check out my [old site.](https://sites.google.com/view/socialsss/) <p align="right"> *warning: it's buggy* </p>
+
 ### [Twitter](https://twitter.com/lltejasll) \ [Snapchat](https://snapchat.com/add/lltejasll) \ [Instagram](https://instagram.com/supbitchy)
 
 <br>
