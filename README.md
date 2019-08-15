@@ -3,8 +3,6 @@
 
 #### haven't figured out what to put on it, yet.
 
-
-
 Nobody:
 
 Me:
@@ -16,7 +14,9 @@ Me:
 - [ ] - Learn HTML with CSS
 - [ ] - Publish a Static Site (better than this one, duhh)
 
-until then, check out my [old site.](https://sites.google.com/view/socialsss/) <p align="right"> *warning: it's buggy* </p>
+until then, check out my [old site.](https://sites.google.com/view/socialsss/) 
+ 
+*warning: it's buggy* 
 
 ### [Twitter](https://twitter.com/lltejasll) \ [Snapchat](https://snapchat.com/add/lltejasll) \ [Instagram](https://instagram.com/supbitchy)
 
