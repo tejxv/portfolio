@@ -18,7 +18,7 @@ check out my [old site.](https://sites.google.com/view/socialsss/)
  
 *warning: it's buggy* 
 
-### [Twitter](https://twitter.com/lltejasll) \ [Snapchat](https://snapchat.com/add/lltejasll) \ [Instagram](https://instagram.com/supbitchy)
+### [Twitter](https://twitter.com/lltejasll) \ [Snapchat](https://snapchat.com/add/lltejasll) \ [Instagram](https://instagram.com/tejasx5)
 
 <br>
 <p align="center">
