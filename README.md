@@ -20,11 +20,13 @@ check out my [old site.](https://sites.google.com/view/socialsss/)
 
 ## [Twitter](https://twitter.com/lltejasll) \ [Snapchat](https://snapchat.com/add/lltejasll) \ [Instagram](https://instagram.com/tejasx5)
 
+
+
+<a href="https://www.pinterest.com/lltejasll/" title="Pins by Tejas" target="_blank">If you somehow like <b>Pinterest</b></a>
+
 <br>
 <p align="center">
   <img src="https://raw.githubusercontent.com/AmplifyLow/01/master/Resources/this-is-fine.gif">
   <br>
   <br>
 </p>
-
-<a href="https://www.pinterest.com/lltejasll/" title="Pins by Tejas" target="_blank">If you somehow like <b>Pinterest</b></a>
