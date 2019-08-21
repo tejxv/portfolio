@@ -39,7 +39,7 @@ h1,h2,h3{ font-family: 'Poppins', sans-serif; }
 
 p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
 
-h1{ font-size: 2.5em; line-height: 1; }
+h1{ font-size: 2em; line-height: 1; letter-spacing: 0px }
 h2{ font-size: 3em; line-height: 1.1; }
 h3{ font-size: 2.5em; }
 h4{ font-size: 1.5em; }
@@ -113,7 +113,7 @@ b.light-color{ color: #444; }
 .main-area{ position: relative; height: 100vh; z-index: 0; padding: 0 20px; background-size: cover; color: #fff; }
 
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
-	opacity: .4; background: #000; }
+	opacity: 0.3; background: #000; }
 
 .main-area .desc{ margin: 20px auto; max-width: 500px; }
 	
@@ -122,15 +122,15 @@ b.light-color{ color: #444; }
 
 .main-area .notify-btn:hover{ color: #fff; background: none; background-color: none; }
 
-.main-area .social-btn{ position: absolute; bottom: 40px; width: 100%; left: 50%; transform: translateX(-50%); }
+.main-area .social-btn{ position: absolute; bottom: 80px; width: 100%; left: 50%; transform: translateX(-50%); }
 
-.main-area .social-btn > li > a{ margin: 0 10px; padding-bottom: 14px; position: relative; overflow: hidden; }
+.main-area .social-btn > li > a{ margin: 0 5px; padding-bottom: 10px; position: relative; overflow: hidden; }
 
 .main-area .social-btn > li > a:after{ content:''; position: absolute; bottom: 0; left: 0; right: 0; 
-	transition: all .6s; height: 2px; background: #ff0; }
+	transition: all .8s; height: 3px; background: #ff0; }
 
 	
-.main-area .social-btn > li > a:hover:after{ transform: translateX(-80%); }
+.main-area .social-btn > li > a:hover:after{ transform: translateX(-85%); }
 
 
 h1{
@@ -139,4 +139,16 @@ h1{
 
 p{
 	text-shadow: 2px 2px 20px #000;
+}
+
+ul{
+	text-shadow: 2px 2px 50px #000;
+}
+}
+
+.display-table{
+	display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);
 }
