@@ -27,19 +27,19 @@
 html{ font-size: 100%; height: 100%; width: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
 
 
-body{ font-size: 16px; font-family: 'Open Sans', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+body{ font-size: 20px; font-family: 'Contrail One', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; overflow-x: hidden; 
-	color: #333; }
+	color: #333; letter-spacing: 1.4px;}
 
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
-h1,h2,h3{ font-family: 'Poppins', sans-serif; }
+h1,h2,h3{ font-family: 'Caveat', sans-serif; }
 
 p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
 
-h1{ font-size: 2em; line-height: 1; letter-spacing: 0px }
+h1{ font-size: 2.5em; line-height: 1; letter-spacing: -2.5px }
 h2{ font-size: 3em; line-height: 1.1; }
 h3{ font-size: 2.5em; }
 h4{ font-size: 1.5em; }
@@ -110,19 +110,19 @@ b.light-color{ color: #444; }
 3. MAIN SECTION
 --------------------------------- */
 
-.main-area{ position: relative; height: 100vh; z-index: 0; padding: 0 20px; background-size: cover; color: #fff; }
+.main-area{ position: relative; height: 100vh; z-index: 0; padding: 0 20px; background-size: cover; color: #000; }
 
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
-	opacity: 0.3; background: #000; }
+	opacity: 0.1; background: #000; }
 
 .main-area .desc{ margin: 20px auto; max-width: 500px; }
 	
 .main-area .notify-btn{ padding: 13px 35px; border-radius: 7px; border: 2px solid #fff;
-	color: #fff; background: #F84982; transition: 0.6s; }
+	color: #fff; background: none; transition: .6 s; }
 
-.main-area .notify-btn:hover{ color: #fff; background: none; background-color: none; }
+.main-area .notify-btn:hover{ color: #fff; background: #000; background-color: none; }
 
-.main-area .social-btn{ position: absolute; bottom: 80px; width: 100%; left: 50%; transform: translateX(-50%); }
+.main-area .social-btn{ position: absolute; bottom: 30px; width: 200%; left: 50%; transform: translateX(-50%); }
 
 .main-area .social-btn > li > a{ margin: 0 5px; padding-bottom: 10px; position: relative; overflow: hidden; }
 
@@ -152,3 +152,7 @@ ul{
     grid-template-columns: repeat(auto-fit, 100px);
     grid-template-rows: repeat(2, 100px);
 }
+.iframe{
+	 align-self: center;
+}
+
