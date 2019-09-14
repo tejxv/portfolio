@@ -132,4 +132,7 @@ ul{
 .iframe{
 	 align-self: center;
 }
-
+.title{
+	font-family: "Staatliches";
+	letter-spacing: 1px;
+}
