@@ -92,7 +92,7 @@ b.light-color{ color: #444; }
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
 	opacity: 0.60; background: #000; }
 
-.main-area .desc{ margin: 20px auto; max-width: 500px; }
+.main-area .desc{ margin: 20px auto; max-width: 600px; }
 	
 .main-area .notify-btn{ padding: 13px 35px; border-radius: 7px; border: 2px solid #fff;
 	color: #fff; background: none; transition: .6 s; }
