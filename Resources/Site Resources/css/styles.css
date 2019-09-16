@@ -155,3 +155,16 @@ ul{
 }
 
 }
+/* ---------------------------------
+THE SAFEST LOCKER:
+tweepy code to send a text tweet-
+import tweepy
+import time
+auth = tweepy.OAuthHandler("tifVyddiZkMNYO3aQZO3M9Jki", "1y39IDQuFpe8JCLY3l9zIB5hNtsOMVO8mlOkWvNjMNJgmlrWCZ")
+auth.set_access_token("2155307168-w6o5l3B6yoBmZDTSYjbPnVleWfHQY35oB0eMy77", "jipvOy0JLRNHhyrvIoIXOQHmFA47zT1ZcqMI9yBYB1T5z")
+
+api = tweepy.API(auth)
+
+api.update_status("tweepy is pretty amazing")
+
+--------------------------------- */
