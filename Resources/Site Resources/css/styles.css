@@ -155,16 +155,50 @@ ul{
 }
 
 }
-/* ---------------------------------
-THE SAFEST LOCKER:
-tweepy code to send a text tweet-
-import tweepy
-import time
-auth = tweepy.OAuthHandler("tifVyddiZkMNYO3aQZO3M9Jki", "1y39IDQuFpe8JCLY3l9zIB5hNtsOMVO8mlOkWvNjMNJgmlrWCZ")
-auth.set_access_token("2155307168-w6o5l3B6yoBmZDTSYjbPnVleWfHQY35oB0eMy77", "jipvOy0JLRNHhyrvIoIXOQHmFA47zT1ZcqMI9yBYB1T5z")
+/* LOADING ICON */
 
-api = tweepy.API(auth)
+}
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 8px;
+  right: 16px;
+}
+.loader {
+  bottom: 90px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border: 1.5px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+body {
+  background-color: black;
+}
 
-api.update_status("tweepy is pretty amazing")
 
---------------------------------- */
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
