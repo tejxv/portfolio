@@ -1,7 +1,7 @@
 
 <html>
 <head>
-  <title>tejas</title>
+  <title>hi, half of twitter is BTS stan accounts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
@@ -12,9 +12,9 @@
   }  
   body {
     color: white;
-    background-image: linear-gradient(90deg,#000058,black,black,#000058);
-    background-size: 200%;
-    animation: bganimation 20s infinite;
+    background-image: linear-gradient(45deg,red,black,black,red);
+    background-size: 800%;
+    animation: bganimation 15s infinite;
   }
 
   @keyframes bganimation{ 
@@ -28,7 +28,16 @@
       background-position: 0% 50%;
     }    
   }
-
+  .button {
+  font-family: 'Roboto Mono', monospace;
+  color: yellow;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 100%;
+  padding-right: 1px;
+  padding-left: 1px;
+  }
 
   a {
     color: yellow;
@@ -44,12 +53,17 @@
     padding-bottom: 60px;
     padding-left: 5px;
     font-family: 'Roboto Mono', monospace;
-    font-size: 99%;
+    font-size: 100%;
+    line-height: 1.6;
     position: absolute;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+  sub {
+    font-size: xx-small;
+    color: white; 
   }
 </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -63,11 +77,17 @@
 </head>
 <body>
   <div class="content">
-      <h1>TeJAS</h1>
+      <h1>TeJaS</h1>
       <hr>
-      <p>hey, welcome to a site that I created using HTML (duhh) and a little bit of CSS.<br>Previously, the the website was kind of heavy and took a significant amount of time to load so I made this minimal looking one which is much faster. In case you wanna see the older version, you can checkout my <a href="https://github.com/tejxv" style="text-decoration: none">github.</a><br>& here's my Spotify that you didn't ask for :P</p>
-      <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:guywithaniphone5s&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-      <p><a href="https://twitter.com/tejxv" style="text-decoration: none">twitter</a> | <a href="https://instagram.com/tejxv" style="text-decoration: none">instagram</a> | <a href="https://www.snapchat.com/add/lltejasll" style="text-decoration: none">snapchat</a></p>
+      <p>hey, i don't know why you are here but since you've made it so consider checking my <a href="https://github.com/tejxv" style="text-decoration: none">github.<sub>ignore if you don't know wtf is github</sub></a><br>also, do you agree with the title of this site? HMU.<sub> hit me up</sub><br>& here's my Spotify that you didn't ask for :P</p>
+      <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:guywithaniphone5s&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+
+      <p><a href="https://twitter.com/tejxv" target="_blank" style="text-decoration: none">twitter</a> | <button class="button" onclick="myFunction()">instagram</button></p>
       </div>
+      <script>
+function myFunction() {
+  alert("You just hit a route that doesn't exist ~ I disabled my Instagram :/ (@tejxv) ");
+}
+</script>
 </body>
 </html>
