@@ -14,9 +14,11 @@
     color: white;
     background-image: linear-gradient(45deg,red,black,black,red);
     background-size: 800%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     animation: bganimation 15s infinite;
   }
-
+  
   @keyframes bganimation{ 
     0%{
       background-position: 0% 50%;
@@ -38,20 +40,19 @@
   padding-right: 1px;
   padding-left: 1px;
   }
-  html, body {margin: 0; height: 100%; overflow: hidden}
-
+  
   a {
     color: yellow;
     font-style: normal;
   }
   h1{
-    padding-top: 60px;
+    padding-top: auto;
     font-family: 'Major Mono Display', monospace;
   }
   .content {
-    padding-top: 60px;
+    padding-top: 80px;
     padding-right: 5px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     padding-left: 5px;
     font-family: 'Roboto Mono', monospace;
     font-size: 100%;
@@ -66,6 +67,16 @@
     font-size: xx-small;
     color: white; 
   }
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: white;
+   font-size: 100%;
+   text-align: justify-all;
+}
 </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80313533-1"></script>
@@ -75,20 +86,26 @@
   gtag('js', new Date());
   gtag('config', 'UA-80313533-1');
 </script>
+<script>setTimeout(function(){window.location.href='https://twitter.com/tejxv'},40000);</script>
+
 </head>
 <body>
   <div class="content">
       <h1>TeJaS</h1>
       <hr>
-      <p>hey, i don't know why you are here but since you've made it so consider checking my <a href="https://github.com/tejxv" style="text-decoration: none">github.<sub>ignore if you don't know wtf is github</sub></a><br>also, do you agree with the title of this site? HMU.<sub> hit me up</sub><br>& here's my Spotify that you didn't ask for :P</p>
+      <p>hey, i don't know why you are here but since you've made it so consider checking out my <a href="https://github.com/tejxv" style="text-decoration: none">github.<sub>ignore if you don't know wtf is github</sub></a><br>also, do you agree with the title of this site? HMU.<sub>LOL</sub><br>& here's my Spotify that you didn't ask for :P</p>
       <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:guywithaniphone5s&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-
       <p><a href="https://twitter.com/tejxv" target="_blank" style="text-decoration: none">twitter</a> | <button class="button" onclick="myFunction()">instagram</button></p>
-      </div>
+      
       <script>
 function myFunction() {
   alert("You just hit a route that doesn't exist ~ I disabled my Instagram :/ (@tejxv) ");
 }
 </script>
+<div class="footer">
+        <hr>
+  <p>this site reduces to atoms in 40 seconds, just wait.</p>
+</div>
+      </div>
 </body>
 </html>
