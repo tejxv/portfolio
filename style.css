@@ -108,6 +108,6 @@ ul a:hover {
 
 @media only screen and (max-width: 600px) {
   :root {
-    font-size: 14px;
+    font-size: 10px;
 }
 }
