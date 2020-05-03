@@ -2,120 +2,58 @@
 <html>
 
 <head>
-    <title>hi</title>
-    <script src="https://kit.fontawesome.com/af18556798.js" crossorigin="anonymous"></script>
+    <title>test</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="title" content="Tejas Upadhyay">
+    <meta name="description" content="Projects by Tejas Upadhyay">
+    <meta name="keywords" content="Django, Python, Django web app, live, Javascript Weather App, API fetch, HTML, CSS">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Tejas Upadhyay">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161447542-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161447542-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-161447542-1');
-</script>
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-
+    gtag('config', 'UA-161447542-1');
+    </script>
 </head>
-<style>
-    @import url('https://rsms.me/inter/inter.css');
-
-@supports (font-variation-settings: normal) {
-    html {
-        font-family: 'Inter var', sans-serif;
-    }
-}
-* {
-	margin: 0;
-}
-html,
-body {
-    margin: 0px;
-    height: auto;
-    width: 100%;
-    padding: 0;
- 	background-attachment: fixed;
- 	background-size: cover;
-
-}
-.container {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-.text-overlay {
-	border: 0vw solid white;
-	width: 100%;
-	height: auto;
-	position: fixed;
-	top: 0;
-	left: 0;
-	padding-top: 200px;
-	padding-left: 20px;
-	padding-right: 20px;
-	text-align: left;
-	overflow: hidden;
-	font-size: 5vh;
-	color: #fff;
-	mix-blend-mode: exclusion;
-	cursor: default;
-}
-.seperator {
-	border: 0px solid red;
-	width: 100%;
-	margin: 10px 10px 10px 0px;
-}
-.socials {
-	border-left: 10px solid red;
-	border-top: 10px;
-	padding: 20px;
-	border-radius: 00px;
-	word-spacing: 40px;
-	cursor: default;
-}
-h1 {
-	font-size: 120px;
-	text-shadow: 5px 0px red;
-}
-p:hover {
-	color: red;
-	text-shadow: 2px 0px white;
-}
-a {
-	color: white;
-	transition: all .2s ease;
-}
-a:hover {
-	color: red;
-	cursor: none;
-}
-video {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	position: absolute;
-	overflow: hidden;
-}
-</style>
 
 <body>
-    <div class="container">
-        <video class="vid-insert bg-black" id="ocean" autoplay="" muted="" loop="" poster="https://media.urbit.org/site/sea30-poster.jpg">
-            <source src="https://storage.googleapis.com/media.urbit.org/site/sea30-1440.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="text-overlay">
-            <h1>tejas.</h1>
-            <p><i>amateur internet ninja</i></p>
-            <div class="seperator"></div>
-	            <div class="socials">
-	            	<a href="https://github.com/tejxv/" target="_blank"><i class="fab fa-github"></i></a> 
-		            <a href="https://snapchat.com/add/lltejasll" target="_blank"><i class="fab fa-snapchat-ghost"></i></a></i> 
-		            <a href="https://twitter.com/tejxv" target="_blank"><i class="fab fa-twitter"></i></a> 
-		            <a href="https://open.spotify.com/user/guywithaniphone5s" target="_blank"><i class="fab fa-spotify"></i></a> 
-		            <a href="https://www.instagram.com/tejxv/" target="_blank"><i class="fab fa-instagram"></i></a>
-		        </div>
+    <div id="dark-mode-toggle"></div>
+    <div class="project-container">
+        <div class="content">
+            <h2>Tejas Upadhyay</h2>
+            <div class="hr"></div>
+            <div class="project-header">
+                Projects
+            </div>
+            <div class="hr"></div>
+            <div class="list">
+                <br>
+                <ul>
+                    <li><a href="http://tejxv.pythonanywhere.com/" target="_blank">Django Web App</a></li>
+                    <li><a href="https://tejxv.github.io/weather-app/" target="_blank">Javascript Weather App</a></li>
+                    <li><a href="https://github.com/tejxv/Instagram-DM-Spam" target="_blank">Instagram DM Spammer</a></li>
+                </ul>
+                <br>
+            </div>
+            <div class="hr"></div>
+            <div class="footer">
+                <a href="https://www.github.com/tejxv/" target="_blank">Github</a>
+                <a href="https://www.twitter.com/tejxv/" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/tejxv/" target="_blank">Instagram</a>
+            </div>
         </div>
     </div>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
