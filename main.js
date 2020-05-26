@@ -54,8 +54,8 @@ class TextScramble {
 
 
 const phrases = [
-  '_',
   'Tejas',
+  '_',
 ]
 
 const el = document.querySelector('.name')
