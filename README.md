@@ -1,2 +1,2 @@
 
-## https://www.tejas.gq/
+## https://tejas.website/
