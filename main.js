@@ -83,7 +83,7 @@ const track = {};
 
 function latestTrack() {
   let api =
-    "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=lltejasll&format=json&api_key=0d18c849abdeb5bb7df9437a19e70114&limit=1";
+    "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=lltejasll&format=json&api_key=0d18c849abdeb5bb7df9437a19e70114&limit=1";
   fetch(api)
     .then(function (response) {
       let data = response.json();
