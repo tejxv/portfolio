@@ -171,6 +171,7 @@ body {
 }
 
 .lastfm {
+  opacity: 0;
   margin: 2em 0 2em 0;
   display: flex;
   flex-direction: row;

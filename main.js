@@ -113,10 +113,14 @@ function displayTrack() {
   trackArtwork.src = `${track.artwork}`;
   shadowArtwork.src = `${track.artwork}`;
   track.time = `${track.time}`;
+  lastfm.style.opacity = 1;
 
   if (track.nowPlaying) {
-    nowPlaying.innerHTML = `currently listening`;
+    nowPlaying.style.display = "block";
+    nowPlaying.innerHTML = "currently listening";
+    timestamp.style.display = "none";
   } else {
+    timestamp.style.display = "block";
     timestamp.innerHTML = `listened ` + moment.unix(`${track.time}`).fromNow();
     nowPlaying.style.display = "none";
   }
