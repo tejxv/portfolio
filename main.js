@@ -97,9 +97,7 @@ function latestTrack() {
         track.nowPlaying = true;
       } else {
         track.nowPlaying = false;
-        console.log("not currently playing");
         track.time = data["recenttracks"]["track"][0]["date"]["uts"];
-        console.log(track.time);
       }
     })
     .then(function () {
