@@ -54,7 +54,7 @@ class TextScramble {
   }
 }
 
-const phrases = ["Tejas", "_"];
+const phrases = ["Tejas", "tejxv"];
 
 const el = document.querySelector(".name");
 const fx = new TextScramble(el);
