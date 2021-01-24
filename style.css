@@ -245,6 +245,7 @@ body {
 .artwork img {
   height: 150px;
   width: 150px;
+  margin: 0 20px 0 0;
   border-radius: 10px;
   -webkit-transition: all 400ms cubic-bezier(1, 0.61, 0.5, 1.8);
   -o-transition: all 400ms cubic-bezier(1, 0.61, 0.5, 1.8);
@@ -259,6 +260,10 @@ body {
 .shine {
   /* border: 1px solid red; */
   position: relative;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
 }
 
 .shine::before {
@@ -341,6 +346,7 @@ body {
 .artist p {
   color: red;
   font-weight: 600;
+  margin: 10px 0 0 0;
 }
 
 .playing {
@@ -349,7 +355,7 @@ body {
 
 .playing p {
   font-size: 0.7em;
-  color: #cccccc;
+  color: #b7b7b7;
   font-weight: 400;
   padding: 0 5px 0 15px;
   border-radius: 5px;
@@ -371,10 +377,10 @@ body {
   font-weight: 400;
 }
 
-p, a {
+/* p, a {
   text-decoration: none;
   margin: 0.5em 0 0 0;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   :root {
@@ -406,7 +412,7 @@ p, a {
     margin-right: 20px
   }
   .shadowartwork {
-    top: -60px;
+    top: -130px;
   }
   .info {
     padding: 0 0 1.5em 0;
