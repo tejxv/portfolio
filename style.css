@@ -324,7 +324,7 @@ body {
           align-items: flex-start;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: start;
+          justify-content: center;
   padding: 0 0 0 0;
 }
 
@@ -406,7 +406,7 @@ p, a {
     margin-right: 20px
   }
   .shadowartwork {
-    top: -120px;
+    top: -60px;
   }
   .info {
     padding: 0 0 1.5em 0;
