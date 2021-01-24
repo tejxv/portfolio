@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  background: url(/Resources/bg/Whangaehu.png);
+  background: url(/Resources/bg/Whangaehu.svg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;

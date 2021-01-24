@@ -126,5 +126,3 @@ function displayTrack() {
 
 latestTrack();
 setInterval(latestTrack, 5000);
-
-//
