@@ -78,6 +78,7 @@ const trackArtwork = document.querySelector("#trackartwork");
 const shadowArtwork = document.querySelector("#shadowartwork");
 const timestamp = document.querySelector("#timestamp");
 const lastfm = document.querySelector("#lastfm");
+const trackLink = document.querySelector("#tracklink");
 
 const track = {};
 
@@ -93,6 +94,7 @@ function latestTrack() {
       track.artist = data["recenttracks"]["track"][0]["artist"]["#text"];
       track.name = data["recenttracks"]["track"][0]["name"];
       track.artwork = data["recenttracks"]["track"][0]["image"][3]["#text"];
+      track.link = data["recenttracks"]["track"][0]["url"];
       if ("@attr" in data["recenttracks"]["track"][0]) {
         track.nowPlaying = true;
       } else {
@@ -111,6 +113,9 @@ function displayTrack() {
   trackArtwork.src = `${track.artwork}`;
   shadowArtwork.src = `${track.artwork}`;
   track.time = `${track.time}`;
+  trackLink.href = `${track.link}`;
+  // console.log(trackLink.href);
+
   lastfm.style.opacity = 1;
 
   if (track.nowPlaying) {
