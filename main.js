@@ -113,9 +113,10 @@ function displayTrack() {
   trackArtwork.src = `${track.artwork}`;
   shadowArtwork.src = `${track.artwork}`;
   track.time = `${track.time}`;
-  trackLink.href = `${track.link}`;
-  // console.log(trackLink.href);
-
+  // trackLink.href = `${track.link}`;
+  youtubeSearchQuery = encodeURI(`${track.name}` + " " + `${track.artist}`);
+  youtubeSearchQueryFinal = "https://www.youtube.com/results?search_query=" + `${youtubeSearchQuery}`;
+  trackLink.href = `${youtubeSearchQueryFinal}`;
   lastfm.style.opacity = 1;
 
   if (track.nowPlaying) {
@@ -130,4 +131,4 @@ function displayTrack() {
 }
 
 latestTrack();
-setInterval(latestTrack, 5000);
+setInterval(latestTrack, 50000);
