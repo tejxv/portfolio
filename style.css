@@ -394,6 +394,7 @@ body {
   font-weight: 600;
   font-size: 1.2em;
   padding: 0 10px 0 0;
+  line-break: anywhere;
 }
 
 .artist {
