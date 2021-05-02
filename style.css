@@ -7,7 +7,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background: slateblue;
+  background: #f7f6ff;
 }
 
 :root {
@@ -402,7 +402,7 @@ body {
 }
 
 .artist p {
-  color: #ffa69f;
+  color: #ff5244;
   font-weight: 600;
   margin: 10px 0 0 0;
 }
